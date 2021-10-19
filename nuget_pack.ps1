@@ -1,0 +1,1 @@
+dotnet pack src/Extensions --configuration Release --output ../.nuget_releases/
