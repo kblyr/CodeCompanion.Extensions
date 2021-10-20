@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- NuGet Package Info -->
+    <PackageId>CodeCompanion.Extensions.AspNetCore</PackageId>
+    <Version>1.1.0</Version>
+    <Authors>John Josua Paderon</Authors>
+    <Company>CodeCompanion Libraries</Company>
+    <Copyright>Copyright 2021 (c) John Josua Paderon</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/kblyr/CodeCompanion.Extensions</RepositoryUrl>
+    <Description>CodeCompanion.Extensions.AspNetCore</Description>
+    <PackageIconUrl>https://raw.githubusercontent.com/kblyr/CodeCompanion.Extensions/main/assets/logo.png</PackageIconUrl>
+    <PackageReleaseNotes>https://github.com/kblyr/CodeCompanion.Extensions/releases/tag/v1.1.0</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+ </ItemGroup>
+
+</Project>
