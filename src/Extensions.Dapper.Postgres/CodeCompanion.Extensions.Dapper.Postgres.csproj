@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Info -->
+    <PackageId>CodeCompanion.Extensions.Dapper.Postgres</PackageId>
+    <Version>1.0.5</Version>
+    <Authors>John Josua Paderon</Authors>
+    <Company>CodeCompanion Libraries</Company>
+    <Copyright>Copyright 2021 (c) John Josua Paderon</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/kblyr/CodeCompanion.Extensions</RepositoryUrl>
+    <Description>CodeCompanion.Extensions.Dapper.Postgres</Description>
+    <PackageIconUrl>https://raw.githubusercontent.com/kblyr/CodeCompanion.Extensions/main/assets/logo.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Npgsql" Version="5.0.10" />
+  </ItemGroup>
+
+</Project>
